@@ -1,0 +1,17 @@
+.body{background: url(img/backgroup.jpg);background-size: cover;z-index: -999;width: 100%;height: 100%;position:absolute;top: 0;left: 0;}
+
+@media(max-width: 767px){
+	.body{
+	background: url(img/backgroup.jpg);
+	width: 100%;
+	background-color: #ececec91;
+	margin-top: 47%;
+	padding-top: 0.1%;
+	text-align: justify;
+	padding-bottom: 0.4%;
+	padding-right: 2%;
+	margin-left: 0%;
+	border-radius: 0.6cm;
+	padding-left: 0%;
+	}
+}	

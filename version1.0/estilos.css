@@ -1,0 +1,1441 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+	box-sizing: border-box;
+	font-family: 'Poppins';
+}
+
+body{
+	  /* fallback for old browsers */
+	  /* Chrome 10-25, Safari 5.1-6 */
+	 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.inforeceta{
+	margin-top: 9%;
+	width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+input[type=text]{
+   -webkit-appearance: none;
+}
+
+input[type=password]{
+   -webkit-appearance: none;
+}
+
+input[type=submit]{
+   -webkit-appearance: none;
+}
+
+input[type=button]{
+   -webkit-appearance: none;
+}
+
+
+.tituloregistro2{
+	color: grey;
+}
+
+
+.wrapper {
+	width: 90%;
+	margin: auto;
+	top: 0;
+	overflow:hidden;
+  }
+  header {
+	background: #fff;
+	width: 100%;
+	left: 0;
+	right: 0;
+	position: fixed;
+	z-index: 5;
+	top: 0%;
+	box-shadow: 1px 1px 5px 1px gainsboro;
+	}
+  
+  nav {
+	margin-top: 10px !important;
+		float: right;
+ /* Desplazamos el nav hacia la izquierda */
+  }
+
+
+  .circular--square {
+	display: inline-block;
+	background: #fff;
+	position: relative;
+	margin-top: 3%;
+	margin-left: 24%;
+	width: 178px;
+	height: 178px;
+	overflow: hidden;
+	border-radius: 50%;
+	}
+
+    .circular--square3 {
+	display: inline-block;
+	background: #fff;
+	position: relative;
+	margin-top: auto;
+	margin-left: 42%;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+	}
+
+  .circular--square2 {
+	display: inline-block;
+	background: #fff;
+	position: absolute;
+	z-index: 100;
+	margin-top: 8%;
+	width: 155px;
+	left: 44%;
+	height: 155px;
+	overflow: hidden;
+	border-radius: 50%;
+	}
+
+	.ingresar{
+	background-color: #5fcf9e;
+	border: none;
+	align-content: center;
+	padding: 4%;
+	font-size: 1.3em;
+	margin-top: 3%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 19%;
+	margin-right: 1%;
+	margin-left: 0%;
+	border-radius: 1.1cm;
+	cursor: pointer;
+	color: white;
+	transition:600ms ease-out;
+}
+
+.texto_receta{
+	color: black;
+	text-decoration: none;
+	position: absolute;
+	margin-top: 4%;
+	left: 46%;
+}
+
+.texto_receta3{
+	color: black;
+	text-decoration: none;
+	margin-top: -19%;
+	position: absolute;
+	top: 32%;
+	left: 48%;
+}
+
+
+
+  .botonM{
+	
+	background: transparent;
+	border:0px;
+	width:80px;
+	height:19px;
+	margin-top: 8px;
+	margin-left: 30%;
+	border-radius: 0.3em;
+   }
+   .botonR{
+	background: transparent;
+	border:0px;
+	width:80px;
+	height:19px;
+	margin-top: 21px;
+	margin-left: 26%;
+	}
+
+	.bienvenida2{
+
+	}
+
+   .btnComentario{
+   	background-color: #5fcf9e;
+   	border: none;
+   	align-content: center;
+   	padding: 4%;
+   	font-size: 1.3em;
+   	margin-top: 1%;
+   	padding-top: 1%;
+   	padding-bottom: 1%;
+   	width: 39%;
+   	margin-right: 0%;
+   	margin-left: 0%;
+   	border-radius: 1.1cm;
+   	cursor: pointer;
+   	color: white;
+   	transition: 600ms ease-out;
+   }
+  
+.color{
+	background-color: whitesmoke;
+	border: 3px solid gainsboro;
+	padding: 7%;
+	padding-bottom: 1%;
+	margin-top: -22%;
+	margin-left: 8%;
+	margin-right: 0;
+	border-radius: 1.9em;
+	color: #646e8e;
+}
+
+
+.foto{
+	background-color: white;
+	position: absolute;
+	top: 34%;
+	left: 39.5%;
+	box-shadow: 0px 1px 10px 2px gainsboro;
+}
+
+.bio{
+	display: none;
+	background-color: white;
+	position: absolute;
+	top: 63%;
+	left: 30%;
+	width: 41%;
+	box-shadow: 0px 1px 10px 2px gainsboro;
+}
+
+
+.titulo{
+	float: left;
+	top: 0%;
+	margin-left: 1%;
+	padding-top: 17px;
+	margin-top: 14px;
+	color: #2cc765;
+	/* position: sticky; */
+}
+
+.tabla{
+	border-bottom: 1px solid grey;
+	margin-top: 10%;
+	margin-left: 23%;
+	color: seagreen;
+	width: 50%;
+	position: relative;
+	z-index: 99;
+}
+
+.divreceta{
+	margin-top:-40%;
+}
+
+.navbar{
+	background-color: white;
+	padding-bottom: 0px;
+	/* width: 102%; */
+	/* margin-left: -10px; */
+	/* box-shadow: 1px 3px 8px 3px gainsboro; */
+	overflow: hidden;
+	margin-top: -8px;
+}
+
+
+.megusta{
+	margin-left: 36%;
+}
+
+.indiferente{
+
+}
+
+.dislike{
+
+}
+
+.favoritos3{
+		width: 4%;
+		cursor:pointer;
+		margin: 0;
+		left: 25%;
+		margin-left: -10%;
+		margin-top: 2%;
+		top: 75%;
+		border-radius: 100%;
+		background-color: white;
+		box-shadow: 1px 1px 5px 1px gainsboro;
+	}
+
+.comentarios{
+	margin-top: 9%;
+	width: 40%;
+	margin-left: 30%;
+}
+
+.sugerencias{
+	border: none;
+	background-color: #ececec;
+	border-radius: 0.3cm;
+	width: 32%;
+	padding-bottom: 11%;
+	outline: none;
+}
+
+
+::-webkit-input-placeholder { color: grey; text-align:center;} 
+
+.login{
+	float: right;
+	background-color: transparent;
+	border: 1px solid seagreen;
+	padding: 1%;
+	margin-right: 1%;
+	margin-top: 18px;
+	border-radius: 0.3em;
+	cursor: pointer;
+	color: #2cc765;
+	transition:600ms ease-out;
+}
+
+.login:hover{
+	background-color: #ffffff;
+	border: 3px solid white;
+	color: #153320;
+	transition:600ms ease-out;
+}
+
+.registro{
+	float: right;
+	background-color: transparent;
+	padding: 1%;
+	margin-right: 1%;
+	border-radius: 0.3em;
+	padding-left: 17%;
+	cursor: pointer;
+	color: #5fcf9e;
+}
+
+.registro2{
+	float: left;
+	background-color: transparent;
+	padding: 1%;
+	width: 40%;
+	margin-right: 1%;
+	border-radius: 0.3em;
+	padding-left: 13%;
+	cursor: pointer;
+	color: #5fcf9e;
+}
+
+.contenedor{
+
+}
+
+h1{
+	color: white;
+	margin-top: 15%;
+}
+
+
+.tituloregistro{
+	margin-top: 3%;
+}
+
+.formLogin{
+	float: left;
+	z-index: 99;
+	overflow: hidden;
+	margin-left: -11px;
+	padding-top: 11%;
+	margin-top: -7%;
+	background-color: whitesmoke;
+	border: 3px solid gainsboro;
+	padding: 7%;
+	padding-bottom: 100%;
+	margin-right: 0;
+	border-radius: 0.3em;
+	color: #646e8e;
+}
+
+.formRegistro{
+	float: left;
+	width: 100%;
+	z-index: 99;
+	overflow: hidden;
+	margin-left: -1%;
+	padding-top: 0%;
+	margin-top: 3%;
+	background-color: transparent;
+	/* border: 3px solid gainsboro; */
+	padding: 8%;
+	padding-bottom: 0%;
+	margin-right: 0;
+	border-radius: 0.3em;
+	color: #646e8e;
+}
+
+
+
+.galeria{
+	float: left;
+	z-index: 99;
+	margin-left: 27%;
+	width: 42%;
+	overflow: hidden;
+	margin-top: 5%;
+	background-color: transparent;
+	/* border: 3px solid seagreen; */
+	padding: 1%;
+	margin-right: 0%;
+	border-radius: 0.3em;
+	color: white;
+}
+
+.tituloUsuario{
+	color: #646e8e;
+}
+
+.campoUsuario{
+	background-color: transparent;
+	width: 100%;
+	border: 2px solid gainsboro;
+	padding-top: 4%;
+	padding-left: 25%;
+	padding-bottom: 4%;
+	margin-top: 9%;
+	margin-right: 1%;
+	color: grey;
+	border-radius: 1.1cm;
+}
+
+.campoUsuarioreg{
+	background-color: transparent;
+	width: 100%;
+	border: 2px solid gainsboro;
+	padding-top: 4%;
+	padding-left: 0;
+	padding-bottom: 4%;
+	margin-top: 9%;
+	margin-right: 1%;
+	color: grey;
+	border-radius: 1.1cm;
+}
+
+.campoUsuario:focus{
+	
+	outline: 0px;
+	
+	
+}
+
+.eliminar{
+ width: 5%;
+ z-index: 99;
+ position: fixed;
+ left: 33%;
+ top: 89%;
+ background-color: white;
+ box-shadow: 1px 1px 5px 1px gainsboro;
+ border-radius: 100%;
+}
+
+.recetas{width: 5%;z-index: 99;position: fixed;cursor:pointer;left: 62%;border-radius: 100%;background-color: white;top: 89%;box-shadow: 1px 1px 5px 1px gainsboro;}
+
+.campoUsuariologin{
+	background-color: #ececec;
+	width: 100%;
+	border: none;
+	padding-top: 4%;
+	padding-left: 0;
+	padding-bottom: 4%;
+	margin-top: 0%;
+	margin-right: 1%;
+	color: #3fa7c5;
+	border-radius: 0.2cm;
+}
+
+.campoUsuariologin:focus{
+	
+	outline: 0px;
+	
+	
+}
+
+.tituloClave{
+	color: #646e8e;
+}
+
+.campoClave{
+	background-color: transparent;
+	width: 100%;
+	border: 2px solid gainsboro;
+	padding-top: 4%;
+	margin-right: 1%;
+	padding-bottom: 4%;
+	padding-left: 25%;
+	color: grey;
+	border-radius: 1.1cm;
+}
+
+.imgfacebook{
+
+}
+
+.imggoogle{
+
+}
+
+.campoClavereg{
+	background-color: transparent;
+	width: 100%;
+	border: 2px solid gainsboro;
+	padding-top: 4%;
+	margin-right: 1%;
+	padding-bottom: 4%;
+	padding-left: 0;
+	color: grey;
+	border-radius: 1.1cm;
+}
+
+.campoClave:focus{
+	
+	outline: 0px;
+	
+	
+}
+
+.tabla_favoritos{
+	margin-top: 2%;
+	overflow: scroll;
+}
+
+.elminar_registro{
+	margin-top: 12px;
+   	margin-left:200%;
+ 	cursor:pointer;
+}
+
+.campoClavelogin{
+	background-color: #ececec;
+	width: 100%;
+	border: none;
+	padding-top: 4%;
+	margin-top: -4%;
+	margin-right: 1%;
+	padding-bottom: 4%;
+	padding-left: 0;
+	color: #3fa7c5;
+	border-radius: 0.2cm;
+}
+
+.portada{
+	background-image: url("img/imgportada.jpeg");
+	background-size: 100%;
+	z-index: 99;
+	width: 100%;
+	margin-top: 82.5%;
+	height: 123%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+.info{
+	    width: 41%;
+	    background-color: #ececec91;
+	    margin-top: 22%;
+	    padding-top: 0.1%;
+	    text-align: justify;
+	    padding-bottom: 0.4%;
+	    padding-right: 2%;
+	    border-radius: 1.1cm;
+	    padding-left: 2%;
+}
+
+.facebook{background-image: url('img/facebook.png');background-position: 0px 1px;border-radius: 31px;background-size: 14%;padding-top: 3%;padding-bottom: 3%;border: 1px solid skyblue;width: 86%;margin-bottom: -3%;margin-top: 0%;background-repeat: no-repeat;background-color: #ececec;}
+
+.google{background-image: url('img/google.png');background-position: 0px 1px;border-radius: 48px;background-size: 13.5%;padding-top: 3%;padding-bottom: 3%;border: 1px solid skyblue;width: 86%;margin-top: 0%;background-repeat: no-repeat;background-color: #ececec;}
+.info2{
+	    width: 41%;
+	    background-color: #ececec91;
+	    margin-top: 1%;
+	    padding-top: 0.1%;
+	    border-radius: 1.1cm;
+	    text-align: justify;
+	    padding-bottom: 0.4%;
+	    padding-right: 2%;
+	    padding-left: 2%;
+}
+
+.campoClavelogin:focus{
+	
+	outline: 0px;
+	
+	
+}
+
+.imagen{
+	background: skyblue;
+}
+
+.imagen:focus{
+	background: #88deb9;
+}
+
+.btnEntrar{
+	background-color: #1fa7c5;
+	border: 3px solid #1fa7c5;
+	align-content: center;
+	padding: 4%;
+	width: 100%;
+	margin-right: 1%;
+	margin-left: 0%;
+	border-radius: 1.1cm;
+	cursor: pointer;
+	color: white;
+	transition:600ms ease-out;
+}
+
+.cerrarsesionS{
+		float: right;
+		background-color: transparent;
+		border: 1px solid seagreen;
+		padding: 1%;
+		margin-right: 1%;
+		margin-top: 23px;
+		border-radius: 0.3em;
+		cursor: pointer;
+		color: #2cc765;
+		transition:600ms ease-out;
+	}
+
+	.nombreusuario{
+		float: right;
+		background-color: transparent;
+		padding: 0%;
+		margin-right: 2%;
+		border-radius: 0.3em;
+		padding-left: 10%;
+		cursor: pointer;
+		color: #5fcf9e;
+	}
+
+	.favoritos{
+	 width: 5%;
+	 padding-top: 0%;
+	 margin-left: 41%;
+	 margin-right: 8%;
+	 background-color: white;
+	 box-shadow: 1px 1px 5px 1px gainsboro;
+	 border-radius: 100%;
+	}
+
+	.favoritos2{
+		width: 5%;
+		cursor:pointer;
+		margin-top: 2%;
+		margin-left: -10%;
+		position: absolute;
+		border-radius: 100%;
+		background-color: white;
+		box-shadow: 1px 1px 5px 1px gainsboro;
+	}
+
+	.botones{
+		overflow: hidden;
+		padding-top: 0;
+	}
+
+	.botones3{
+		overflow: hidden;
+		padding-top: 0;
+	}
+
+	.recetas{width: 5%;z-index: 99;position: fixed;cursor:pointer;left: 62%;border-radius: 100%;background-color: white;top: 89%;box-shadow: 1px 1px 5px 1px gainsboro;}
+
+	.biografia{
+		width: 25%;
+		margin-left: 39%;
+		margin-right: 39%;
+		margin-top: 4%;
+		color: grey;
+	}
+
+	.perfil{
+	     width: 243px;
+	     height: 243px;
+	     -moz-border-radius: 50%;
+	     -webkit-border-radius: 50%;
+	     border-radius: 50%;
+	     margin-top: 8%;
+	     margin-left: 0%;
+	     }
+
+	.cerrarsesionP{
+		float: right;
+		background-color: transparent;
+		border: 1px solid seagreen;
+		padding: 1%;
+		margin-right: 1%;
+		margin-top: 23px;
+		border-radius: 0.3em;
+		cursor: pointer;
+		color: #2cc765;
+		transition:600ms ease-out;
+	}
+
+	.cerrarsesionP:hover{
+		background-color: #ffffff;
+		border: 3px solid white;
+		color: #153320;
+		transition:600ms ease-out;
+	}
+
+	.cerrarsesionS:hover{
+		background-color: #ffffff;
+		border: 3px solid white;
+		color: #153320;
+		transition:600ms ease-out;
+	}
+	.nombreusuarioS{
+		background-color: transparent;
+		padding: 0%;
+		margin-right: -9%;
+		border-radius: 0.3em;
+		padding-left: 0%;
+		cursor: pointer;
+		color: #5fcf9e;
+	}
+
+.tituloperfilS{
+		float: left;
+		top: 0%;
+		margin-left: 1%;
+		padding-top: 17px;
+		margin-top: 14px;
+		color: #2cc765;
+		/* position: sticky; */
+	}
+
+
+.btnregistro{
+	background-color: #1fa7c5;
+	border: 3px solid #1fa7c5;
+	align-content: center;
+	padding: 4%;
+	width: 100%;
+	margin-right: 1%;
+	margin-left: 0%;
+	border-radius: 1.1cm;
+	cursor: pointer;
+	color: white;
+	transition:600ms ease-out;
+}
+
+.btnEnviar{
+	float: none;
+	background-color: #88deb9;
+	border: navajowhite;
+	padding: 1%;
+	margin-top: 6%;
+	margin-left: 14%;
+	width: 49%;
+	border-radius: 0.1cm;
+	cursor: pointer;
+	color: white;
+	transition: 600ms ease-out;
+}
+
+.btnEnviar:hover{
+	background-color: #ffffff;
+	border: 3px solid white;
+	color: #153320;
+	transition:600ms ease-out;
+}
+
+.registro-externo{
+	float: right;
+	width: 50%;
+	border-left: 2px solid gainsboro;
+	margin-top: -161px;
+	padding-bottom: 0%;
+	padding-left: 9%;
+	padding-top: 0;
+	margin-left: 80px;
+}
+
+
+
+
+.chequeable input {
+  display: none;
+}
+.chequeable img {
+  border: 1px solid transparent;
+  border-radius: 0.9cm;
+  padding-top: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 1%;
+}
+.chequeable input {
+  display: none;
+  overflow: hidden;
+  background: #3fa7c5;
+}
+.chequeable input:checked  + img {
+  background: #88deb9;
+}
+
+
+@media(max-width: 767px){
+	.formLogin{
+	float: left;
+	z-index: 99;
+	overflow: hidden;
+	margin-left: -7px;
+	padding-top: 0;
+	padding-left: 4%;
+	padding-right: 4%;
+	margin-top: -119px;
+	margin-bottom: 21%;
+	width: 100%;
+	background-color: transparent;
+	border: none;
+	padding-bottom: 0;
+	margin-right: 0px;
+	border-radius: 2.3em;
+	color: #646e8e;
+}
+
+
+.campoUsuario{
+    background-color: transparent;
+    width: 100%;
+    border: 2px solid gainsboro;
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-bottom: 4%;
+    margin-top: 41%;
+    margin-right: 1%;
+    color: #7b7b7b;
+    border-radius: 21px;
+}
+.logo{
+	margin: 1%;
+	align:center;
+	margin-left: 18%;
+
+
+
+}
+
+
+.campoUsuario:focus{
+	
+	outline: 0px;
+	
+	
+}
+.campoClave{
+	background-color: transparent;
+	width: 100%;
+	border: 2px solid gainsboro;
+	padding-top: 4%;
+	margin-right: 1%;
+	padding-bottom: 4%;
+	padding-left: 10%;
+	color: #7b7b7b;
+	border-radius: 1.1cm;
+}
+
+.campoClave:focus{
+	
+	outline: 0px;
+	
+	
+}
+.btnEntrar{
+	background-color: #65ff72;
+	border: navajowhite;
+	align-content: center;
+	padding: 4%;
+	margin-top: -3%;
+	width: 100%;
+	margin-right: 1%;
+	margin-left: 0%;
+	border-radius: 0.2cm;
+	cursor: pointer;
+	color: white;
+	transition:600ms ease-out;
+}
+
+.registro{
+	float: right;
+	background-color: transparent;
+	margin-top: 0;
+	padding: 0%;
+	display: none;
+	margin-right: 1%;
+	border-radius: 0.3em;
+	padding-left: 17%;
+	cursor: pointer;
+	color: #68cf7e;
+}
+
+.registro2{
+	padding: 0%;
+	position: absolute;
+	left: -6%;
+	top: 47rem;
+	width: 100%;
+	margin-right: 1%;
+	border-radius: 0.3em;
+	padding-left: 14%;
+	cursor: pointer;
+	color: #5fcf9e;
+}
+
+.registro-externo{
+	float: left;
+	width: 100%;
+	border: none;
+	margin-top: -102px;
+	padding-bottom: 0%;
+	margin-bottom: 10%;
+	padding-left: 0%;
+	padding-top: 0;
+	margin-left: 6px;
+}
+
+.wrapper {
+	width: 100%;
+	margin: auto;
+	top: 0;
+	overflow:hidden;
+	}
+  header {
+	background: #fff;
+	width: 100%;
+	position: fixed;
+	z-index: 5;
+	margin-left: 0%;
+	top: 0%;
+	box-shadow: 1px 1px 5px 1px gainsboro;
+	}
+  
+  nav {
+	margin-top: 10px !important;
+	float: left;
+ /* Desplazamos el nav hacia la izquierda */
+	}
+  .botonM{
+	background: transparent;
+	border:0px;
+	width:80px;
+	height:19px;
+	margin-top: 8px;
+	margin-left: 0%;
+	border-radius: 0.3em;
+	}
+   .botonR{
+	background: transparent;
+	border:0px;
+	width:80px;
+	margin-right: 0%;
+	height:19px;
+	float: right;
+	margin-top: -58px;
+	border-radius: 0.3em;
+	}
+
+	.eliminar{
+ width: 16%;
+ z-index: 99;
+ position: fixed;
+ left: 7%;
+ top: 90%;
+ background-color: white;
+ box-shadow: 1px 1px 5px 1px gainsboro;
+ border-radius: 100%;
+}
+
+.recetas{width: 16%;z-index: 99;position: fixed;left: 75%;border-radius: 100%;background-color: white;top: 90%;box-shadow: 1px 1px 5px 1px gainsboro;}
+
+.tabla_favoritos{
+	margin-top: 10%;
+	width: 100%;
+}
+
+.elminar_registro{
+	margin-top: 12px;
+   	margin-left:200%;
+ 	cursor:pointer;
+}
+
+.login {
+    float: right;
+    background-color: transparent;
+    border: 1px solid seagreen;
+    padding: 1%;
+    margin-right: 1%;
+    margin-top: 18px;
+    display: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+    color: #2cc765;
+    transition: 600ms ease-out;
+}
+
+.campoUsuarioreg{
+    background-color: #ececec;
+    width: 100%;
+    border: 2px solid skyblue;
+    padding-top: 4%;
+    padding-left: 0%;
+    margin-bottom: -1px;
+    padding-bottom: 4%;
+    margin-top: 42%;
+    margin-right: 0%;
+    color: #7b7b7b;
+    border-radius: 0.3cm;
+}
+
+
+
+.campoUsuarioreg:focus{
+	
+	outline: 0px;
+	
+	
+}
+.campoClavereg{
+	background-color: #ececec;
+	width: 100%;
+	border: 2px solid skyblue;
+	padding-top: 4%;
+	margin-right: 1%;
+	padding-bottom: 4%;
+	margin-bottom: -2px;
+	margin-top: -5%;
+	padding-left: 0;
+	color: #7b7b7b;
+	border-radius: 0.3cm;
+}
+
+.campoClavereg:focus{
+	
+	outline: 0px;
+	
+	
+}
+
+.ingresar{
+	background-color: #5fcf9e;
+	border: none;
+	align-content: center;
+	padding: 4%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 38%;
+	margin-right: 1%;
+	margin-left: 0%;
+	border-radius: 1.2cm;
+	margin-top: 15%;
+	cursor: pointer;
+	color: white;
+	transition:600ms ease-out;
+}
+
+.btnregistro{
+	background-color: #5fcf9e;
+	border: none;
+	align-content: center;
+	padding: 4%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	margin-top: -29%;
+	width: 100%;
+	margin-right: 1%;
+	margin-bottom: 0%;
+	margin-left: 0%;
+	border-radius: 0.32cm;
+	cursor: pointer;
+	color: white;
+	transition:600ms ease-out;
+}
+
+.tituloregistro{
+	margin-top: -2%;
+	position: absolute;
+}
+
+.chequeable input {
+	  display: none;
+	}
+	.chequeable img {
+	  width: 30%;
+	  border: 5px solid transparent;
+	  margin-left: 2%;
+	  border-radius: 0.7cm;
+	}
+	.chequeable input {
+	  display: none;
+	}
+	.chequeable input:checked  + img {
+	}
+
+
+	.perfil{
+	     width: 238px;
+	     height: 221px;
+	     -moz-border-radius: 50%;
+	     border-radius: 50%;
+	     margin-top: 24%;
+	     margin-left: 0;
+	     }
+
+
+	.botones{
+		overflow: hidden;
+		padding-top: 0;
+	}
+
+	.biografia{
+		width: 63%;
+		margin-left: 19%;
+		margin-right: 0;
+		margin-top: 10%;
+		color: grey;
+		text-align: justify;
+	}
+
+	.favoritos{
+	 width: 18%;
+	 padding-top: 0%;
+	 margin-left: 14%;
+	 margin-right: 37%;
+	 background-color: white;
+	 box-shadow: 1px 1px 5px 1px gainsboro;
+	 border-radius: 100%;
+	}
+
+	.favoritos2{
+		width: 13%;
+		cursor:pointer;
+		margin: 0;
+		left: 23%;
+		margin-top: 19%;
+		border-radius: 100%;
+		background-color: white;
+		box-shadow: 1px 1px 5px 1px gainsboro;
+	}
+
+	.tituloperfil{
+		float: left;
+		top: 0%;
+		margin-left: 1%;
+		padding-top: 17px;
+		margin-top: 14px;
+		color: #2cc765;
+		/* position: sticky; */
+	}
+
+	.cerrarsesionP{
+		float: right;
+		background-color: transparent;
+		border: 1px solid seagreen;
+		padding: 1%;
+		margin-right: 1%;
+		margin-top: 8px;
+		display: none;
+		margin-bottom: 15%;
+		border-radius: 0.3em;
+		cursor: pointer;
+		color: #2cc765;
+		transition:600ms ease-out;
+	}
+
+	.cerrarsesionP:hover{
+		background-color: #ffffff;
+		border: 3px solid white;
+		color: #153320;
+		transition:600ms ease-out;
+	}
+	.nombreusuario{
+		float: right;
+		background-color: transparent;
+		padding: 0%;
+		margin-right: 2%;
+		display: none;
+		border-radius: 0.3em;
+		padding-left: 10%;
+		cursor: pointer;
+		color: #5fcf9e;
+	}
+
+	.cerrarsesionS{
+		float: right;
+		background-color: transparent;
+		border: 1px solid seagreen;
+		padding: 1%;
+		margin-right: 1%;
+		margin-top: 23px;
+		border-radius: 0.3em;
+		cursor: pointer;
+		color: #2cc765;
+		transition:600ms ease-out;
+	}
+
+	.cerrarsesionS:hover{
+		background-color: #ffffff;
+		border: 3px solid white;
+		color: #153320;
+		transition:600ms ease-out;
+	}
+	.nombreusuarioS{
+		
+		background-color: transparent;
+		padding: 0%;
+		margin-right: 2%;
+		border-radius: 0.3em;
+		padding-left: 10%;
+		cursor: pointer;
+		color: #5fcf9e;
+	}
+   
+	.tituloperfilS{
+		float: left;
+		top: 0%;
+		margin-left: 1%;
+		padding-top: 17px;
+		margin-top: 14px;
+		color: #2cc765;
+		/* position: sticky; */
+	}
+
+
+	  .circular--square2 {
+	background: #fff;
+	z-index: 100;
+	width: 100px;
+	top: 5%;
+	left: 38%;
+	height: 100px;
+	margin: 0;
+	overflow: hidden;
+	border-radius: 50%;
+	}
+
+	.divreceta{
+		    margin-top: -8%;
+			margin-left: 5%;
+			margin-right: 1%;
+	}
+
+	.portada{
+	background-image: url("img/imgportada.jpeg");
+	background-size: cover;
+	z-index: 99;
+	width: 100%;
+	overflow: hidden;
+	height: 100%;
+	margin-top: 172%;
+	top: 0;
+	left: 0;
+	background-repeat: no-repeat;
+}
+
+.info{
+	    width: 91%;
+	    background-color: #ececec91;
+	    margin-top: 46%;
+	    padding-top: 0.1%;
+	    text-align: justify;
+	    padding-bottom: 0.4%;
+	    padding-right: 2%;
+	    border-radius: 0.6cm;
+	    padding-left: 2%;
+}
+
+
+.info2{
+	    width: 92%;
+	    background-color: #ececec91;
+	    margin-top: 6%;
+	    padding-top: 0.1%;
+	    border-radius: 0.6cm;
+	    text-align: justify;
+	    padding-bottom: 0.4%;
+	    padding-right: 2%;
+	    padding-left: 2%;
+}
+
+.facebook{
+	background-position: 0px -1px;
+	border-radius: 31px;
+	background-size: 14%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	border: 1px solid skyblue;
+	width: 86%;
+	position: absolute;
+	margin-bottom: -3%;
+	margin-top: 4%;
+	background-repeat: no-repeat;
+	background-color: #ececec;
+}
+
+.google{background-position: 0px -1px;border-radius: 31px;background-size: 13.5%;padding-top: 3%;padding-bottom: 3%;border: 1px solid skyblue;width: 100%;margin-top: 19%;background-repeat: no-repeat;background-color: #ececec;}
+
+.circular--square3 {
+	display: inline-block;
+	background: #fff;
+	position: relative;
+	margin-top: -1%;
+	margin-left: 29%;
+	width: 177px;
+	height: 177px;
+	overflow: hidden;
+	border-radius: 50%;
+	}
+
+	.tituloregistro2{
+	 color: grey;
+	 position: absolute;
+	 top: 9px;
+	 left: 43%;
+	 margin-top: -1%;
+	}
+
+	.imgfacebook{
+
+}
+
+.imggoogle{
+	
+}
+
+.comentarios{margin-top: 29%;width: 100%;margin-left: 0%;}
+
+.sugerencias{
+	width: 92%;
+	margin-left: 0%;
+	padding-bottom: 81%;
+}
+
+.upgrade{
+	width: 100%;
+	margin-left: 2%;
+	text-align: -webkit-auto;
+}
+
+.btnComentario{
+	width: 40%;
+	border-radius: 0.3cm;
+}
+
+.btnEnviar{
+	float: none;
+	background-color: #65ff72;
+	border: navajowhite;
+	padding: 1%;
+	margin-top: 15%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-size: 1.4em;
+	margin-left: 5%;
+	width: 90%;
+	border-radius: 0.4cm;
+	cursor: pointer;
+	color: white;
+	transition: 600ms ease-out;
+}
+
+
+.galeria{
+	float: left;
+	z-index: 99;
+	margin-left: 0%;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 5%;
+	background-color: transparent;
+	/* border: 3px solid seagreen; */
+	padding: 1%;
+	margin-right: 0%;
+	border-radius: 0.3em;
+	color: white;
+}
+
+  .circular--square {
+	display: inline-block;
+	background: #fff;
+	margin-top: auto;
+	margin-left: 14px;
+	overflow: hidden;
+	border-radius: 50%;
+	}
+
+.texto_receta{
+	color: black;
+	margin-left: 3%;
+	text-decoration: none;
+	margin-top: 22%;
+	position: absolute;
+	left: 37%;
+}
+
+.inforeceta{
+	margin-top: 29%;
+	margin-left: 0%;
+	width: 353px;
+	font-size: 0.9em;
+}
+
+.favoritos3{
+		width: 13%;
+		cursor:pointer;
+		margin: 0;
+		margin-top: 8%;
+		left: 20%;
+		margin-left: -36%;
+		top: 78%;
+		border-radius: 100%;
+		background-color: white;
+		box-shadow: 1px 1px 5px 1px gainsboro;
+	}
+
+	.texto_receta3{
+	color: black;
+	text-decoration: none;
+	margin-top: -20%;
+	margin-left: 2%;
+	position: absolute;
+	left: 41%;
+}
+
+.bienvenida2{
+		margin-top: 24%;
+	}
+
+	.foto{
+
+	background-color: white;
+	position: absolute;
+	top: 51%;
+	left: 12%;
+	box-shadow: 0px 1px 10px 2px gainsboro;
+}
+
+.bio{
+	width: 64%;
+	margin-left: -14%;
+}
+} 	
